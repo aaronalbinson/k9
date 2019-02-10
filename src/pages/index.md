@@ -9,7 +9,7 @@ elements:
     type: hero
   - herodescription: ''
     heroimage: /img/d6ca1f_9190b1184a4747c8bd89378254515a7c.webp
-    herolink: /pricing
+    herolink: /prices
     herotitle: Prices
     type: hero
 ---

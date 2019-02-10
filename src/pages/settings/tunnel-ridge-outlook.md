@@ -1,10 +1,15 @@
 ---
 templateKey: settings
-title: Environ Digital
-companyaddress: © Environ Digital 2020
+title: K9 Swim
+companyaddress: |-
+  K9 Swim Ltd
+
+  Tel: 0161 681 0096
+
+  E-mail: admin@k9swim.com
 sociallinks:
-  facebook: 'https://www.facebook.com/environdigital'
+  facebook: 'https://www.facebook.com/k9swimmanchester'
   instagram: ''
-  twitter: ''
+  twitter: 'https://twitter.com/k9swim'
 ---
 

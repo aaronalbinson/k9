@@ -44,5 +44,7 @@ elements:
       picture-in-picture" allowfullscreen></iframe><p>Custom HTML is perfect for
       embedding iframes</p>
     type: customhtml
+  - prebuilt: services
+    type: prebuilt
 ---
 

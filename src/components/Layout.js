@@ -45,15 +45,14 @@ const TemplateWrapper = ({ children }) => (
                   <img
                     className="logo"
                     src={logo}
-                    alt="Environ Digital"
-                    style={{ width: "70px" }}
+                    alt="K9 Swim"
+                    style={{ width: "250px" }}
                   />
                 </Link>
               </div>
 
               {children}
             </div>
-
             <AaFooter
               socialLinks={node.frontmatter.sociallinks}
               address={node.frontmatter.companyaddress}

@@ -5,12 +5,12 @@ elements:
   - paragraph: |-
       # Contact us
 
-      Please don't hesitate to contact us with any queries.\
+      Please don't hesitate to contact us with any queries.
       To book a session please ring us on 0161 681 0096.
 
 
 
-      50 Graver Lane\
+      50 Graver Lane
       Manchester, M40 1QW
 
       admin@k9swim.com

@@ -225,6 +225,8 @@ export const pageQuery = graphql`
           quoteauthor
 
           prebuilt
+
+          customhtml
         }
       }
     }

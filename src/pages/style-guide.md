@@ -46,5 +46,15 @@ elements:
     type: customhtml
   - prebuilt: services
     type: prebuilt
+  - imagetextimage: /img/d6ca1f_dac7bb0c716c442c93d613496e03c8d9_mv2_d_3782_3456_s_4_2.webp
+    imagetexttext: >-
+      ## January Sale 2-4-1
+
+
+      Aenean lacinia bibendum nulla sed consectetur. Maecenas faucibus mollis
+      interdum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus.
+    type: imagetext
 ---
 

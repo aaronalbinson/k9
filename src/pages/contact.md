@@ -11,7 +11,7 @@ elements:
       50 Graver Lane  
       Manchester, M40 1QW
 
-      admin@k9swim.com
+      <mailto:admin@k9swim.com>
     type: text
   - customhtml: >-
       <iframe

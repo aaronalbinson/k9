@@ -10,9 +10,19 @@
     }
     
     .imageTextText {
-        padding: 20px;
+        padding: 40px;
         display: flex;
         flex-direction: column;
         justify-content: center;
+
+        h2 {
+            color: $primary;
+            font-weight: bold;
+            margin-bottom:30px;
+        }
+
+        p {
+            font-size: 20px;
+        }
     }
 }

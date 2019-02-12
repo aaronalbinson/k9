@@ -44,6 +44,12 @@ collections:
             widget: "object"
             fields:
               - {label: Paragraph, name: paragraph, widget: "markdown"}
+          - label: "Image Text"
+            name: "imagetext"
+            widget: "object"
+            fields:
+              - {label: Text, name: imagetexttext, widget: "markdown"}
+              - {label: Image, name: imagetextimage, widget: "image"}
           - label: "Gallery"
             name: "gallery"
             widget: "object"

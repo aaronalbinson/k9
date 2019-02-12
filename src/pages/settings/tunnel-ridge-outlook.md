@@ -6,7 +6,7 @@ companyaddress: |-
 
   Tel: 0161 681 0096
 
-  E-mail: admin@k9swim.com
+  E-mail: <mailto:admin@k9swim.com>
 sociallinks:
   facebook: 'https://www.facebook.com/k9swimmanchester'
   instagram: ''

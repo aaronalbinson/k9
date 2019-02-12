@@ -15,6 +15,9 @@ elements:
       Book an induction session throughout January and get a 2nd session of the
       same value free! Just book on 01616810096. There has never been a better
       time.
+
+
+      [Book online](/book)
     type: imagetext
   - herodescription: ''
     heroimage: /img/d6ca1f_9190b1184a4747c8bd89378254515a7c.webp

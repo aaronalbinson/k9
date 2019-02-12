@@ -62,5 +62,9 @@ elements:
       pool for a while afterwards. Also, please don't feed your dog within 2
       hours before you come, and for at least 2 hours afterwards.
     type: text
+  - quotetitle: >-
+      "Marti was fantastic! I was amazed how quickly he had a terrified little
+      doodle swimming the length of the pool!"
+    type: quote
 ---
 

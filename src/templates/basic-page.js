@@ -11,6 +11,7 @@ import Content, { HTMLContent } from "../components/Content";
 import AaBlockquote from "../components/AaBlockquote/AaBlockquote";
 import AaCustomHTML from "../components/AaCustomHTML/AaCustomHTML";
 import Services from "../components/Services/Services";
+import ImageText from "../components/ImageText/ImageText";
 
 export const BasicPageTemplate = ({
   content,
@@ -49,6 +50,11 @@ export const BasicPageTemplate = ({
                 (element.type === "text" && (
                   <div>
                     <AaTextElement html={element.paragraph} />
+                  </div>
+                )) ||
+                (element.type === "imagetext" && (
+                  <div>
+                    <ImageText image={element.imagetextimage} html={element.imagetexttext} />
                   </div>
                 )) ||
                 (element.type === "gallery" && (
@@ -187,6 +193,9 @@ export const pageQuery = graphql`
           herolink
 
           paragraph
+
+          imagetextimage
+          imagetexttext
 
           galleryitem {
             src {

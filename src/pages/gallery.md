@@ -3,6 +3,9 @@ templateKey: basic-page
 title: Gallery
 elements:
   - paragraph: >-
+      # Gallery
+
+
       Find more happy dogs over on our [Facebook
       page](https://www.facebook.com/k9swimmanchester)
     type: text

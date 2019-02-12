@@ -1,0 +1,18 @@
+@import "../all.sass";
+
+.imageText {
+    display: flex;
+    margin: 50px 0;
+    background-color: $gray-light;
+
+    .imageTextImage {
+        flex: 1 0 30%;
+    }
+    
+    .imageTextText {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

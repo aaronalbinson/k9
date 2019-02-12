@@ -16,16 +16,18 @@ class ImageText extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div className="ImageText">
-          <div className="Image">
-            <img src={this.props.image} />
+        <div className="container content">
+          <div class="imageText">
+            <div className="imageTextImage">
+                <img src={this.props.image} />
+            </div>
+            <div
+                className="imageTextText"
+                dangerouslySetInnerHTML={{
+                __html: converter.makeHtml(this.props.html)
+                }}
+            />
           </div>
-          <div
-            className="container content"
-            dangerouslySetInnerHTML={{
-              __html: converter.makeHtml(this.props.html)
-            }}
-          />
         </div>
       </React.Fragment>
     );

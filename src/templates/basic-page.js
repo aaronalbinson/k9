@@ -54,7 +54,7 @@ export const BasicPageTemplate = ({
                 )) ||
                 (element.type === "imagetext" && (
                   <div>
-                    <ImageText image={element.imagetextimage} html={element.imagetexttext} />
+                    <ImageText image={element.imagetextimage.childImageSharp.fluid.src} html={element.imagetexttext} />
                   </div>
                 )) ||
                 (element.type === "gallery" && (

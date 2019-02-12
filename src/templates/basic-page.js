@@ -194,7 +194,13 @@ export const pageQuery = graphql`
 
           paragraph
 
-          imagetextimage
+          imagetextimage {
+            childImageSharp {
+              fluid(maxWidth: 500, quality: 70) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
           imagetexttext
 
           galleryitem {
